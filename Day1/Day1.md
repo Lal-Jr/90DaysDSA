@@ -1,4 +1,4 @@
-Day 1
+# Day 1
 
     ➟ Learned about the concept of Time and Space Complexity.
 

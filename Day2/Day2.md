@@ -1,3 +1,3 @@
-Day 2
+# Day 2
 
     ➟ Learned about STL in C++
