@@ -1,2 +1,3 @@
 Day 2
-Learned about STL in C++
+
+    ➟ Learned about STL in C++
