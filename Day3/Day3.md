@@ -1,3 +1,4 @@
 # Day 3
 
-    ➟ Recursion
+    ➟ Dealt with Basics of Recursion
+    -> Did some basic problems to get further understanding  of the topic
