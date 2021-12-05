@@ -3,7 +3,8 @@
 using namespace std;
 
 void pattern(int n){
-    if(n==0){
+    if(n==1){
+        cout<< "1"<<endl;
         return;
     }
     for (int i = 1; i <= n; i++)
