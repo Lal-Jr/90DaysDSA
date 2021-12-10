@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+bool isPalindrome(int x) {
+    if(x < 0){
+        return false;
+    }
+
+    int divisor = 1;
+    while(x/divisor >= 10){
+        divisor *= 10;
+    }
+
+    while(x != 0){
+        if (x / divisor != x % 10) {
+            return false;
+        }
+        x %= divisor;
+        x /= 10;
+        divisor /= 100;
+    }
+
+    return true;
+}
+
+int main() {
+    int n;
+    cin>>n;
+    cout<<isPalindrome(n);
+}
