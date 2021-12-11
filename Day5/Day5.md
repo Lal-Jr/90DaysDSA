@@ -1,3 +1,5 @@
 # Day 5
 
-    ➟ Recursion
+    ➟ Reverse a string
+    ➟ Tower of Hanoi
+    ➟ Generate all substrings
