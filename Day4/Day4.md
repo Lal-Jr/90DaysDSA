@@ -5,6 +5,11 @@
     ➟ Find nCr using Recursion
     ➟ Check if an array is sorted
     ➟ Leetcode Qn 7: Reverse Number
-    ➟ Leetcode Qn 9: Palindrome Number
-    ➟ Leetcode Qn 1009: Complement of Base 10 Integer
     ➟ Leetcode Qn 476: Number Complement
+    ➟ Reverse a string
+    ➟ Replacement of pi
+    ➟ Tower of Hanoi
+    ➟ Remove duplicates from string
+    ➟ Move all x to end of string
+    ➟ Generate all substrings
+    ➟ Print all possible words from phone digits
