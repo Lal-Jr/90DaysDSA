@@ -1,5 +1,4 @@
 # Day 5
 
-    ➟ Reverse a string
-    ➟ Tower of Hanoi
-    ➟ Generate all substrings
+    ➟ Sum of N numbers using parameterised approach
+    ➟ Factorial of N numbers using parameterised approach
