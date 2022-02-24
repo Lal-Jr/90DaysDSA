@@ -2,25 +2,19 @@
 
 using namespace std;
 
-bool palindrome(int i, int n, string s[])
+bool palindrome(int i, string &s)
 {
-    if (i >= n / 2)
-        return;
-    if (s[i] != s[n - i - 1])
+    if (i >= s.size() / 2)
+        return true;
+    if (s[i] != s[s.size() - i - 1])
         return false;
-    return palindrome(i + 1, n - 1, s);
+    return palindrome(i + 1, s);
 }
 
 int main()
 {
-    int n;
-    cin >> n;
-    string arr[n];
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-    if (palindrome(0, n, arr) == false)
-        cout << "not palindrome";
-    else
-        cout << "palindrome";
+    string s;
+    cin >> s;
+    cout << palindrome(0, s);
     return 0;
 }
