@@ -41,3 +41,5 @@
 
     ➟ Sum of N numbers using parameterised approach
     ➟ Factorial of N numbers using parameterised approach
+    ➟ Converting number of a digit into words.
+    ➟ Walking Example
