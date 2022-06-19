@@ -47,3 +47,13 @@
     ➟ Sum of elements of an array
     ➟ Linear Search (Using Recursion)
     ➟ Leetcode Qn 704: Binary Search (Using Recursion)
+    ➟ Leetcode Qn 34: First and last position of element in sorted array (Using Binary Search)
+    ➟ Leetcode Qn 852: Peak Element in a Mountain Array (Using Binary Search)
+    ➟ Leetcode Qn 162: Peak Element (Using Binary Search)
+    ➟ Aggressive Cows (Using Binary Search)
+    ➟ Book Allocation (Using Binary Search)
+    ➟ Pivot (Using Binary Search)
+    ➟ Search Rotated Array (Using Binary Search)
+    ➟ Square Root (Using Binary Search)
+
+# Day 6
