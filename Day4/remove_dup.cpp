@@ -17,6 +17,6 @@ string removeDup(string s)
 
 int main()
 {
-    removeDup("lskdjflskjdfkdkd");
+    cout<<removeDup("lskdjflskjdfkdkd");
     return 0;
 }

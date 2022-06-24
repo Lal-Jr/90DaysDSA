@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
 *.prob 
+*.json
 
 # Compiled Object files
 *.slo
@@ -16,6 +17,7 @@
 *.so
 *.dylib
 *.dll
+*.prob
 
 # Fortran module files
 *.mod
@@ -26,6 +28,7 @@
 *.la
 *.a
 *.lib
+*.bin
 
 # Executables
 *.exe
