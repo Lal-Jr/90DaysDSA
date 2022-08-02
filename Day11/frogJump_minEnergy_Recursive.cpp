@@ -6,7 +6,7 @@ int jump(int index,vector<int>& heights){
     if (index==0) return 0;
     int left = jump(index-1,heights) + abs(heights[index] - heights[index-1]);
     int right = INT_MAX;
-    if(index > 1) right = jump(index+1,heights) + abs(heights[index] - heights[index+1]);
+    if(index > 1) right = jump(index-2,heights) + abs(heights[index] - heights[index-2]);
     return min(right,left);
 }
 
