@@ -10,10 +10,12 @@ void reverse(string str)
     }
     string restStr = str.substr(1); // substr gives the the string starting from the index given as argument
     reverse(restStr);
-    cout << str[0];
+    cout<< str[0];
 }
 
 int main()
-{
-    reverse("HARISH");
+{   
+    string s;
+    cin>>s;
+    reverse(s);
 }
