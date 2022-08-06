@@ -3,7 +3,7 @@
 using namespace std;
 
 void selectionSort(vector<int>& arr,int i,int n){
-    if (i == n) return;
+    if (i == n-1) return;
     int minIndex = i;
     for(int j=i+1;j<n;j++){
         if(arr[j]<arr[minIndex])
