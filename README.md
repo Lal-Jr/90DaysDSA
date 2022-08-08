@@ -12,6 +12,4 @@
 
 💡 **Day 10** -> **_1D & 2D Arrays_**
 
-💡 **Day 11-12** -> **_Pointers_**
-
-💡 **Day 13-26** -> **_Dynamic Programming_**
+💡 **Day 11-24** -> **_Dynamic Programming_**
