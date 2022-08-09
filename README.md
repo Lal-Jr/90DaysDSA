@@ -6,10 +6,8 @@
 
 💡 **Day 3-7** -> **_Recursion_**
 
-💡 **Day 8** -> **_BackTracking_**
+💡 **Day 8-9** -> **_BackTracking_**
 
-💡 **Day 9** -> **_OOPS_**
-
-💡 **Day 10** -> **_1D & 2D Arrays_**
+💡 **Day 10** -> **_OOPS_**
 
 💡 **Day 11-24** -> **_Dynamic Programming_**
