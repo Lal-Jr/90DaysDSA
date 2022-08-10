@@ -15,7 +15,7 @@ void solve(vector<string>& nums,vector<vector<string>>& ans,int index){
     }
 }
 
-vector<vector<string>> permuteWithoutDup(vector<string>& nums) {
+vector<vector<string>> permuteString(vector<string>& nums) {
     vector<vector<string>> ans;
     sort(nums.begin(), nums.end());
     solve(nums,ans,0);
@@ -31,7 +31,7 @@ int main(){
         cin>>x;
         nums.push_back(x);
     }
-    ans=permuteWithoutDup(nums);
+    ans=permuteString(nums);
     for (int i = 0; i < ans.size(); i++){
         cout<<"[";
         for (int j = 0; j < ans[i].size(); j++){
