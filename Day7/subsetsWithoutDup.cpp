@@ -15,7 +15,7 @@ void solve(vector<int> &nums, vector<int> &output, int index, vector<vector<int>
     }
 }
 
-vector<vector<int>> subsetsWithDup(vector<int>& nums){
+vector<vector<int>> subsetsWithoutDup(vector<int>& nums){
     vector<vector<int>> ans;
     vector<int> output;
     
@@ -34,7 +34,7 @@ int main(){
         cin>>x;
         nums.push_back(x);
     }
-    ans=subsetsWithDup(nums);
+    ans=subsetsWithoutDup(nums);
     for (int i = 0; i < ans.size(); i++){
         cout<<"[";
         for (int j = 0; j < ans[i].size(); j++){
