@@ -9,25 +9,25 @@ void solve(vector<vector<int>>& m, int n, vector<string>& ans, vector<vector<int
     }
     visited[x][y] = 1;
 
-    if(((x+1>=0 && x+1<n) && (y>=0 && y<n) && visited[x][y] == 0 && m[x][y] == 1)){
+    if(((x+1>=0 && x+1<n) && (y>=0 && y<n) && visited[x+1][y] == 0 && m[x+1][y] == 1)){
         path.push_back('D');
         solve(m,n,ans,visited,x+1, y,path);
         path.pop_back();
     }
 
-    if(((x>=0 && x<n) && (y-1>=0 && y-1<n) && visited[x][y] == 0 && m[x][y] == 1)){
+    if(((x>=0 && x<n) && (y-1>=0 && y-1<n) && visited[x][y-1] == 0 && m[x][y-1] == 1)){
         path.push_back('L');
         solve(m,n,ans,visited,x, y-1,path);
         path.pop_back();
     }
 
-    if(((x>=0 && x<n) && (y+1>=0 && y+1<n) && visited[x][y] == 0 && m[x][y] == 1)){
+    if(((x>=0 && x<n) && (y+1>=0 && y+1<n) && visited[x][y+1] == 0 && m[x][y+1] == 1)){
         path.push_back('R');
         solve(m,n,ans,visited,x, y+1,path);
         path.pop_back();
     }
 
-    if(((x-1>=0 && x-1<n) && (y>=0 && y<n) && visited[x][y] == 0 && m[x][y] == 1)){
+    if(((x-1>=0 && x-1<n) && (y>=0 && y<n) && visited[x-1][y] == 0 && m[x-1][y] == 1)){
         path.push_back('U');
         solve(m,n,ans,visited,x-1, y,path);
         path.pop_back();
