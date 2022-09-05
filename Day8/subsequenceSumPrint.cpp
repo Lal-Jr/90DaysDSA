@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool subsequenceSum(int arr[],int n, int sum, vector<int> &ds,int index, int s){
+void subsequenceSum(int arr[],int n, int sum, vector<int> &ds,int index, int s){
     if(index == n){
         if(s==sum){
             for(auto it:ds) cout<<it<<" ";
