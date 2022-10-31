@@ -35,7 +35,7 @@ class Stack{
 
     void push2(int element){
         if(top2 - top1 > 1)
-            arr[++top2] = element;
+            arr[--top2] = element;
         else
             cout<<"Stack Overflow";
     }
